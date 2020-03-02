@@ -1,861 +1,462 @@
 <!DOCTYPE html>
-
-
-
-  
-
-
-<html class="theme-next muse use-motion" lang="zh-Hans">
-<head><meta name="generator" content="Hexo 3.9.0">
-  <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="theme-color" content="#222">
-
-
-
-
-
-
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform">
-<meta http-equiv="Cache-Control" content="no-siteapp">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
-
-
-
-
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
-
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
-
-
-
-
-
-  <meta name="keywords" content="Hexo, NexT">
-
-
-
-
-
-
-
-
-
-
-<meta name="description" content="TestLife">
-<meta property="og:type" content="website">
-<meta property="og:title" content="TestLife">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="TestLife">
-<meta property="og:description" content="TestLife">
-<meta property="og:locale" content="zh-Hans">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="TestLife">
-<meta name="twitter:description" content="TestLife">
-
-
-
-<script type="text/javascript" id="hexo.configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    root: '/',
-    scheme: 'Muse',
-    version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: true,
-    tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    duoshuo: {
-      userId: '0',
-      author: '博主'
-    },
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    }
-  };
-</script>
-
-
-
-  <link rel="canonical" href="http://yoursite.com/">
-
-
-
-
-
-  <title>TestLife</title>
-  
-
-
-
-
-
-
-
-
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Star</title>
 </head>
+<style>
+/*下方这句不动它，翻译开始*/
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+* {
+	padding: 0;
+	margin: 0;
+}
 
-  
-  
-    
-  
+/*翻译
+主页整体样式 
+文本对齐︰ 中心;
+背景色︰ #ffffff  使用夜间默认时修改为#000000即可
+}
+*/
 
-  <div class="container sidebar-position-left 
-  page-home">
-    <div class="headband"></div>
+body {
+	text-align: center;
+	background-color: #ffffff;
+}
 
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
-    
+/*翻译
+logo图标样式 
+宽度︰ 198px;
+高度︰ 65px;
+最大宽度︰ 250px;
+动画︰ flipInX 4s;
+-webkit 动画︰ flipInX 4s
+}*/
 
-    <div class="custom-logo-site-title">
-      <a href="/" class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">TestLife</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
-    </div>
-      
-        <p class="site-subtitle"></p>
-      
-  </div>
 
-  <div class="site-nav-toggle">
-    <button>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
-  </div>
+img.smaller {
+	width: 200px;
+	height: 200px;
+	max-width: 250px;
+	animation: flipInX 4s;
+	-webkit-animation: flipInX 4s
+}
+
+
+
+/*翻译
+logo添加文字样式 
+字体大小︰ 2em;
+白色空间︰ 正常;
+自动换行︰ 断词;
+文本修饰︰ 无;
+颜色: #232323
+}*/
+
+.logo {
+	font-size: 2em;
+	white-space: normal;
+	word-wrap: break-word;
+	text-decoration: none;
+	color: #232323
+}
+
+/*翻译
+搜索栏字体样式 
+宽度︰ 90%;
+高度︰ 40px;
+背景颜色︰ 透明;
+边境︰ 无;
+大纲︰ 0;
+字体大小︰ 18px;
+字体颜色: #426ab3;
+填充︰ 0 20px;
+边界半径︰ 50px
+}*/
+
+#search_input {
+	width: 90%;
+	height: 40px;
+	background-color: transparent;
+	border: none;
+	outline: 0;
+	font-size: 18px;
+	color: #426ab3;
+	padding: 0 20px;
+	border-radius: 50px
+}
+
+/*翻译
+搜索框边距 
+下边距︰ 30px;
+上边距︰ 20px;
+*/
+
+.search_part {
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+/*翻译
+跨度样式
+显示︰ 阻止;
+溢出︰ 隐藏;
+左填充︰ 5px;
+垂直对齐︰ 居中;
+*/
+
+span {
+	display: block;
+	overflow: hidden;
+	padding-left: 5px;
+	vertical-align: middle;
+}
+
+/*翻译
+搜索栏框架样式 {
+框阴影︰ 0 0 18px rgba(70,70,40,.255);括号里的颜色为Rgb默认，可进入http://rgb.phpddt.com/查询
+-webkit 动画︰ fadeIn 2.5;
+动画︰ fadeIn 2.5;
+背景色︰ rgba(255,255,255,.100);
+边界半径︰ 50px;
+显示︰ 表;
+垂直对齐︰ 居中;
+宽度︰ 80%;根据你喜欢的宽度调整，目前我为了对齐图标使用80%
+高度︰ 40px;
+最大宽度︰ 400px;
+边距︰ 10px 默认布局;
+}
+*/
+
+.search_bar {
+	box-shadow: 0 0 18px rgba(70,70,40,.255);
+	-webkit-animation: fadeIn 2.5s;
+	animation: fadeIn 2.5s;
+	background-color: rgba(255,255,255,.100);
+	border-radius: 50px;
+	display: table;
+	vertical-align: middle;
+	width: 80%;
+	height: 40px;
+	max-width: 400px;
+	margin: 10px auto;
+}
+
+/*翻译
+搜索栏搜索目标确认图标样式，目前为米奇
+轮廓边框︰ 0;
+高度︰ 40px;
+浮标位置︰ 右;
+颜色: #000;
+字体大小︰ 16px;
+字体粗细︰ 700;
+边境︰ 无;
+背景颜色︰ 透明;
+填充︰ 0 13px 0 13px
+*/
+
+#search_submit {
+	outline: 0;
+	height: 40px;
+	float: right;
+	color: #000;
+	font-size: 16px;
+	font-weight: 700;
+	border: none;
+	background-color: transparent;
+	padding: 0 13px 0 13px
+}
+
+/*翻译
+书签图标排版目录样式 
+宽度︰ 100%;
+文本对齐︰ 中心;
+填充顶部︰ 15px;
+填充底部︰ 15px;
+*/
+
+#content {
+	width: 100%;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+/*翻译
+书签框架样式
+-webkit 动画︰ fadeInDown 1s;
+动画︰ fadeInDown 1s;
+位置︰ 相对应;
+显示︰ 显示在内部;
+宽度︰ 75px;
+边境︰ 0;
+*/
+
+.box {
+	-webkit-animation: fadeInDown 1s;
+	animation: fadeInDown 1s;
+	position: relative;
+	display: inline-block;
+	width: 75px;
+	border: 0;
+}
+
+
+/*翻译
+书签图标样式
+宽度︰ 100%;
+高度︰ 100%;
+位置︰ 不受限制;
+左︰ 0;
+顶︰ 0;
+*/
+
+.box a {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/*翻译
+书签字体样式
+颜色: #232323;使用夜间模式时修改为#eee或者#f2eada即可
+高度︰ 1.5em;
+线的高度︰ 1.5em;
+宽度︰ 72px;
+字体大小︰ 0.75em;
+白色空间︰ nowrap;
+溢出︰ 隐藏;
+边距︰ 默认布局;
+-webkit 边框顶部右半径︰ 5px;
+-webkit 边框底部右半径︰ 5px;
+文本溢出︰ 省略;
+-o 文本溢出︰ 省略;
+气相色谱-质谱-文本-溢出︰ 省略;
+填充顶部︰ 3px;
+填充底部︰ 8px;
+*/
+
+.url {
+	color: #232323;
+	height: 1.5em;
+	line-height: 1.5em;
+	width: 72px;
+	font-size: 0.75em;
+	white-space: nowrap;
+	overflow: hidden;
+	margin: auto;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	-ms-text-overflow: ellipsis;
+	padding-top: 3px;
+	padding-bottom: 8px;
+}
+
+/*翻译
+字体样式 
+宽度︰ 3em;
+高度︰ 3em;
+最大宽度︰ 72px;
+*/
+
+.icon {
+	width: 3em;
+	height: 3em;
+	max-width: 72px;
+}
+
+/*
+下方为动画样式，不懂的不要修改
+*/
+
+@-webkit-keyframes flipInX {
+	0% {
+		-webkit-transform: perspective(400px) rotateX(90deg);
+		transform: perspective(400px) rotateX(90deg);
+		opacity: 0
+	}
+
+	40% {
+		-webkit-transform: perspective(400px) rotateX(-10deg);
+		transform: perspective(400px) rotateX(-10deg)
+	}
+
+	70% {
+		-webkit-transform: perspective(400px) rotateX(10deg);
+		transform: perspective(400px) rotateX(10deg)
+	}
+
+	100% {
+		-webkit-transform: perspective(400px) rotateX(0);
+		transform: perspective(400px) rotateX(0);
+		opacity: 1
+	}
+}
+
+@keyframes flipInX {
+	0% {
+		-webkit-transform: perspective(400px) rotateX(90deg);
+		-ms-transform: perspective(400px) rotateX(90deg);
+		transform: perspective(400px) rotateX(90deg);
+		opacity: 0
+	}
+
+	40% {
+		-webkit-transform: perspective(400px) rotateX(-10deg);
+		-ms-transform: perspective(400px) rotateX(-10deg);
+		transform: perspective(400px) rotateX(-10deg)
+	}
+
+	70% {
+		-webkit-transform: perspective(400px) rotateX(10deg);
+		-ms-transform: perspective(400px) rotateX(10deg);
+		transform: perspective(400px) rotateX(10deg)
+	}
+
+	100% {
+		-webkit-transform: perspective(400px) rotateX(0);
+		-ms-transform: perspective(400px) rotateX(0);
+		transform: perspective(400px) rotateX(0);
+		opacity: 1
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0
+	}
+
+	100% {
+		opacity: 1
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0
+	}
+
+	100% {
+		opacity: 1
+	}
+}
+
+@-webkit-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px)
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+		transform: translateY(0)
+	}
+}
+
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(-20px);
+		-ms-transform: translateY(-20px);
+		transform: translateY(-20px)
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+		-ms-transform: translateY(0);
+		transform: translateY(0)
+	}
+}
+</style>
+
+<body>
+<div id="content">
+<br />
+<div class="search_part">
+<a class="logo" href="folder://">
+<img class="smaller" src="file:////storage/emulated/0/PicturesMarket/1.gif"></img>
+</a>
+<br />
+<form onsubmit="return search()" class="search_bar">
+<input type="submit" id="search_submit" value="⠩" >
+<span><input class="search" type="text" value="" autocomplete="off" id="search_input" ></span>
+</form>
+</div>
+<br />
+
+<div class="box">
+<a href="v://history"></a>
+<p><img class="icon" src="img/历史.png" ></p>
+<p class="url">历史</p>
 </div>
 
-<nav class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
-            
-            首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
-            
-            归档
-          </a>
-        </li>
-      
-
-      
-    </ul>
-  
-
-  
-</nav>
-
-
-
- </div>
-    </header>
-
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
-  <section id="posts" class="posts-expand">
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/19/My-New-Post-1/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Sobi Mask">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TestLife">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/06/19/My-New-Post-1/" itemprop="url">My New Post</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-06-19T16:47:46+08:00">
-                2019-06-19
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/19/My-New-Post/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Sobi Mask">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TestLife">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/06/19/My-New-Post/" itemprop="url">My New Post</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-06-19T16:43:16+08:00">
-                2019-06-19
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/19/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Sobi Mask">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TestLife">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/06/19/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-06-19T16:26:33+08:00">
-                2019-06-19
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
-
-
-          </div>
-          
-
-
-          
-
-        </div>
-        
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
-  </div>
-
-  <aside id="sidebar" class="sidebar">
-    
-    <div class="sidebar-inner">
-
-      
-
-      
-
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
-        <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            
-              <p class="site-author-name" itemprop="name">Sobi Mask</p>
-              <p class="site-description motion-element" itemprop="description">TestLife</p>
-          </div>
-
-          <nav class="site-state motion-element">
-
-            
-              <div class="site-state-item site-state-posts">
-              
-                <a href="/archives/">
-              
-                  <span class="site-state-item-count">3</span>
-                  <span class="site-state-item-name">日志</span>
-                </a>
-              </div>
-            
-
-            
-
-            
-
-          </nav>
-
-          
-
-          
-
-          
-          
-
-          
-          
-
-          
-
-        </div>
-      </section>
-
-      
-
-      
-
-    </div>
-  </aside>
-
-
-        
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
-  <span class="with-love">
-    <i class="fa fa-user"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">Sobi Mask</span>
-
-  
+<div class="box">
+<a href="https://m.baidu.com/s?from=1011440l&word=%E5%A4%A9%E6%B0%94"></a>
+<p><img class="icon" src="img/天气.png" ></p>
+<p class="url">天气</p>
 </div>
 
-
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
-
-
-
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
-
-
-
-
-        
-
-
-
-
-
-
-
-        
-      </div>
-    </footer>
-
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
-
-    
-
-  </div>
-
-  
-
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
-</script>
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-  
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
-
-
-
-  
-  
-
-  
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
-
-
-
-  
-
-
-  
-
-
-
-
-	
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-
-  
+<div class="box">
+<a href="http://www.bing.com/translator/?"></a>
+<p><img class="icon" src="img/翻译.png" ></p>
+<p class="url">翻译</p>
+</div>
+
+<div class="box">
+<a href="http://sited.noear.org/ua/"></a>
+<p><img class="icon" src="img/ua.png" ></p>
+<p class="url">UA查询</p>
+</div>
+
+<div class="box">
+<a href="https://m.weibo.cn/beta"></a>
+<p><img class="icon" src="img/微博.png" ></p>
+<p class="url">微博</p>
+</div>
+
+<div class="box">
+<a href="https://m.ithome.com/"></a>
+<p><img class="icon" src="img/it之家.png" ></p>
+<p class="url">IT之家</p>
+</div>
+
+<div class="box">
+<a href="https://www.coolapk.com/apk"></a>
+<p><img class="icon" src="img/酷安.png" ></p>
+<p class="url">酷安</p>
+</div>
+
+<div class="box">
+<a href="http://bbs.zhiyoo.com/forum.php?%20mod=forumdisplay&fid=2&filter=author&orderby=dateline&mobile"></a>
+<p><img class="icon" src="img/论坛4.png" ></p>
+<p class="url">智友论坛</p>
+</div>
+
+<!--
+如若要添加可复制一段
+<div class="box">
+<a href="地址"></a>
+<p><img class="icon" src="img/icon6.png" ></p>
+<p class="url">书签名称</p>
+</div>
+其中链接在href中如href="地址"建议填写folder://自己创建的文件夹地址，这样创建一次不必再修改
+图标文件放置在img文件夹中定义如src="img/icon6.png"
+显示的标题在<p class="url">书签名称</p>之间定义如<p class="url">酷安</p>
+
+-->
+
+</div>
+
+<script type="text/javascript">function search(){var e = document.getElementById("search_input"); if(e.value != ""){window.via.searchText(e.value);e.value = "";}return false;}</script>
 
 </body>
 </html>
