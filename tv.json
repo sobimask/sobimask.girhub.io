@@ -1,5 +1,5 @@
 {
-"spider": "http://tyzx.weetai.cn/mtv/custom_spider.jar",
+"spider": "https://github.com/catvod/CatVodTVSpider/blob/master/jar/custom_spider.jar?raw=true",
 "sites": [
 { // 解析自己找
       "key": "360",
