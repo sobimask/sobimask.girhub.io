@@ -1,6 +1,6 @@
 {
-//"spider": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/custom_spider.txt",
-"spider":"https://raw.fastgit.org/YuanHsing/OneClickRun/master/MeowXB/XBiubiuLA3.jar",
+"spider": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/custom_spider.txt",
+//"spider":"https://raw.fastgit.org/YuanHsing/OneClickRun/master/MeowXB/XBiubiuLA3.jar",
 "sites": [
 { // 解析自己找
       "key": "360",
