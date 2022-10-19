@@ -1548,7 +1548,7 @@
 "biaotihou": "\"",
 "lianjieqian": "href=\"",
 "lianjiehou": "\"",
-"sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
+"sousuoqian": "vodsearch/-------------/?wd=",
 "sousuohou": "&limit=50",
 "sousuohouzhui": "/voddetail/",
 "ssmoshi": "0",
