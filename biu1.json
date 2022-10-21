@@ -161,9 +161,9 @@
 "User": "空",
 "fenlei": "电影$/vodshow/1--------#电视剧$/vodshow/2--------",
 "houzhui": "---.html",
-"shifouercijiequ": "0",
-"jiequqian": "空",
-"jiequhou": "空",
+"shifouercijiequ": "1", //截取的列表数组是否需要二次截取，0不需要，1需要
+"jiequqian": "class=\"module-main module-page ", //不需要二次截取就填空
+"jiequhou": "class=\"fixedGroup", //不需要二次截取就填空
 "jiequshuzuqian": "<a",
 "jiequshuzuhou": "alt=\"",
 "tupianqian":"data-original=\"",
