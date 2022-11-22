@@ -66,9 +66,9 @@
 "fenlei": "美剧/vodshow/21--------#日韩剧/vodshow/22--------",
 "houzhui": "---.html",
 "shifouercijiequ": "1", //截取的列表数组是否需要二次截取，0不需要，1需要
-"jiequqian": "href=\"/voddetail/176058.html\"",//不需要二次截取就填空
-"jiequhou": "class=\"fixedGroup", //不需要二次截取就填空
-"jiequshuzuqian": "<a",
+"jiequqian": "class=\"module\"",//不需要二次截取就填空
+"jiequhou": "id=\"page\"", //不需要二次截取就填空
+"jiequshuzuqian": "<a href=\"/vodplay",
 "jiequshuzuhou": "alt=\"",
 "tupianqian":"data-original=\"",
 "tupianhou":"\"",
