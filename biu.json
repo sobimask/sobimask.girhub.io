@@ -104,7 +104,7 @@
 "jiequhou": "", 
  
 "jiequshuzuqian": "class=\"myui-vodlist__thumb lazyload\"",
-"jiequshuzuhou": "style=\"",
+"jiequshuzuhou": "<span",
  
 "tupianqian":"data-original=\"",
 "tupianhou":"\"",
