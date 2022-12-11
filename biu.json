@@ -149,8 +149,8 @@
 "bfyjiequhou": "</ul>",
 "bfyjiequshuzuqian": "<a",
 "bfyjiequshuzuhou": "/a>",
-"bfbiaotiqian": ">",
-"bfbiaotihou": "<",
+"bfbiaotiqian": "\">",
+"bfbiaotihou": "<\a>",
 "bflianjieqian": "href=\"",
 "bflianjiehou": "\""},
 	
