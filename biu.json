@@ -99,11 +99,11 @@
 "User": "空",
 "fenlei": "电影$/genre/movies---",
 "houzhui": ".html",
-"shifouercijiequ": "0", //截取的列表数组是否需要二次截取，0不需要，1需要
-"jiequqian": "", //不需要二次截取就填空
-"jiequhou": "", //不需要二次截取就填空
-"jiequshuzuqian": "class=\"myui-panel active myui-panel-bg clearfix\"",
-"jiequshuzuhou": "class=\"myui-page text-center clearfix\"",
+"shifouercijiequ": "1", //截取的列表数组是否需要二次截取，0不需要，1需要
+"jiequqian": "class=\"myui-panel-box clearfix\"",, //不需要二次截取就填空
+"jiequhou": "class=\"myui-page text-center clearfix\"", //不需要二次截取就填空
+"jiequshuzuqian": "<a",
+"jiequshuzuhou": "<span>",
 "tupianqian":"data-original=\"",
 "tupianhou":"\"",
 "biaotiqian":"title=\"",
