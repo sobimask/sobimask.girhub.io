@@ -34,7 +34,7 @@
 {"name":"阳光影视","url":"https://www.xxzy.org/api.php/provide/vod"},
 {"name":"百度资源","url":"https://api.apibdzy.com/api.php/provide/vod/?ac=list"},	
 {"name":"量子资源","url":"https://cj.lziapi.com/api.php/provide/vod"},
-{"name":"1080zyku","url":"https://api.1080zyku.com/inc/api_mac10_all.php"},
+{"name":"1080zyku","url":"https://api.1080zyku.com/inc/apijson.php"},
 {"name":"CK资源","url":"http://www.feifei67.com/api.php"}
 ],
 //"lunbofanye":"aHR0cHM6Ly93d3cuZG91eXUuY29tL2dhcGkvcmtjL2RpcmVjdG9yeS9taXhMaXN0LzJfMTAwOC8=",
