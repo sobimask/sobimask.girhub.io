@@ -1,7 +1,6 @@
 {
 "zhuyejiekou":[
 {"name":"筑梦云影视(萝卜)","url":"http://wzys.scp00.cn/api.php/v1.vod"},
-{"name":"影视大全(萝卜)","url":"https://xc.xixi2yy.xyz/mogai_api.php/v1.vod"},
 {"name":"影库(萝卜)","url":"https://yingkudy.com/lvdou_api.php/v1.vod"},
 {"name":"月儿影视(萝卜)","url":"https://yue52.xyz/api.php/v1.vod"},
 {"name":"佑尘云影视(萝卜)","url":"http://v.i7yc.cn/api.php/v1.vod"},
@@ -17,11 +16,8 @@
 {"name":"兔子窝(萝卜)","url":"http://cj.huimaojia.com:12345/mogai_api.php/v1.vod"},
 {"name":"天天视频(萝卜)","url":"http://app.qianju.cc/api.php/v1.vod"},
 {"name":"淘剧社(萝卜)","url":"https://app.shuhai99.com/api.php/v1.vod"},
-{"name":"天诚影视(萝卜)","url":"http://tcspvip.cn/api.php/v1.vod"},
 {"name":"群鑫影视(萝卜)","url":"http://www.qunxinys.com/api.php/v1.vod"},
 {"name":"枇杷影院(萝卜)","url":"https://www.pipamovie.com/api.php/v1.vod"},
-{"name":"诺诺影视(萝卜)","url":"http://nnys.cuicanys.cn/lvdou_api.php/v1.vod"},
-{"name":"铭轩影视(萝卜)","url":"http://lz0716.com/api.php/v1.vod"},
 {"name":"龙猫追剧(萝卜)","url":"https://lb.ybnxcx.com/api.php/v1.vod"},
 {"name":"看剧吧(萝卜)","url":"http://app.ishen520.com/api.php/v1.vod"},
 {"name":"玖卿乐播(萝卜)","url":"https://vod.nqcode.cn/api.php/v1.vod"},
@@ -30,7 +26,6 @@
 {"name":"狐影TV(萝卜)","url":"https://www.foxhtv.com/api.php/v1.vod"},
 {"name":"豆芽视频(萝卜)","url":"http://bdintv.cn/lvdou_api.php/v1.vod"},
 {"name":"哆哆影视(萝卜)","url":"https://ddys.hwzczx.cn/api.php/v1.vod"},
-{"name":"比邻影视(萝卜)","url":"http://0hzy.cn:9990/mogai_api.php/v1.vod"},
 {"name":"阿里影视(萝卜)","url":"http://aliys.cn:90/api.php/v1.vod"},
 {"name":"啊玲影视(萝卜)","url":"http://520dml.xyz/api.php/v1.vod"},
 {"name":"爱电影(萝卜)","url":"https://www.idianying.com.cn/mogai_api.php/v1.vod"},
@@ -43,7 +38,6 @@
 {"name":"零刻影院","url":"https://ys.ling00.cn/api.php/v1.vod"},
 {"name":"麻瓜视频","url":"http://aliyun.k8aa.com/mogai_api.php/v1.vod"},
 {"name":"优视影视","url":"http://app.ysys.asia/lvdou_api.php/v1.vod"},
-{"name":"飓风影视","url": "http://jf.35ys.cc/lehailb_api.php/v1.vod"},
 {"name":"暖光影视","url":"https://app.bl210.com/api.php/v1.vod"}],
 "caijizhan": [
 {"name":"CK资源","url":"http://www.feifei67.com/api.php"}
