@@ -1,5 +1,8 @@
 {
 "zhuyejiekou":[
+
+{"name":"百度资源","url":"https://api.apibdzy.com/api.php/provide/vod"},	
+{"name":"量子资源","url":"https://cj.lziapi.com/api.php/provide/vod"},
 {"name":"筑梦云影视(萝卜)","url":"http://wzys.scp00.cn/api.php/v1.vod"},
 {"name":"影库(萝卜)","url":"https://yingkudy.com/lvdou_api.php/v1.vod"},
 {"name":"月儿影视(萝卜)","url":"https://yue52.xyz/api.php/v1.vod"},
@@ -28,6 +31,7 @@
 {"name":"段友2影视","url":"https://shangjihuoke.com/api.php/tv.vod"}
 ],
 "caijizhan": [
+{"name":"1080zyku","url":"https://api.1080zyku.com/inc/api_mac10_all.php"},
 {"name":"CK资源","url":"http://www.feifei67.com/api.php"}
 ],
 //"lunbofanye":"aHR0cHM6Ly93d3cuZG91eXUuY29tL2dhcGkvcmtjL2RpcmVjdG9yeS9taXhMaXN0LzJfMTAwOC8=",
