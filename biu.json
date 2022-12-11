@@ -102,7 +102,7 @@
 "shifouercijiequ": "0", //截取的列表数组是否需要二次截取，0不需要，1需要
 "jiequqian": "", //不需要二次截取就填空
 "jiequhou": "", //不需要二次截取就填空
-"jiequshuzuqian": "class=\"myui-panel_bd\"",
+"jiequshuzuqian": "class=\"myui-panel active myui-panel-bg clearfix\"",
 "jiequshuzuhou": "class=\"myui-page text-center clearfix\"",
 "tupianqian":"data-original=\"",
 "tupianhou":"\"",
