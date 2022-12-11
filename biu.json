@@ -146,7 +146,7 @@
 "juqinghou": "</span>",
 "bfyshifouercijiequ": "1",
 "bfyjiequqian": "class=\"myui-content__list sort-list scrollbar clearfix\"",
-"bfyjiequhou": "</ul>",
+"bfyjiequhou": "id=\"desc\"",
 "bfyjiequshuzuqian": "<a",
 "bfyjiequshuzuhou": "/a>",
 "bfbiaotiqian": ">",
