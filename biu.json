@@ -147,7 +147,7 @@
 "bfyshifouercijiequ": "0",
 "bfyjiequqian": "class=\"myui-content__list sort-list scrollbar clearfix\"",
 "bfyjiequhou": "</ul>",
-"bfyjiequshuzuqian": "<a",
+"bfyjiequshuzuqian": "class=\"btn btn-default\"",
 "bfyjiequshuzuhou": "/a>",
 "bfbiaotiqian": "\">",
 "bfbiaotihou": "</a>",
