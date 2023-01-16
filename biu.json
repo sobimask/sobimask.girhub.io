@@ -27,7 +27,6 @@
 {"name":"爱酷影视","url":"https://www.zhanlangbu.com/ruifenglb_api.php/v1.vod"},
 {"name":"段友2影视","url":"https://shangjihuoke.com/api.php/tv.vod"}
 ],
-"dianshizhibo": "http://laohu.cool/ddtv/bblive.txt",
 "caijizhan": [
 {"name":"天堂资源","url":"http://vipmv.cc/api.php"},
 {"name":"星海资源","url":"https://www.xhzy01.com/api.php"},
@@ -64,7 +63,7 @@
 //"lunboqianzhui":"aHR0cHM6Ly9tLmRvdXl1LmNvbS8=",
 "zhujiexi":"https://api.okjx.cc:3389/11.php?url=",
 "beiyongjiexi":"https://okjx.cc/?url=#https://api.okjx.cc:3389/11.php?url=#https://api.okjx.cc:3389/jx.php?url=#https://www.pangujiexi.cc/jiexi.php?url=#https://api.okjx.cc:3389/3.php?url=#https://bd.jx.cn/?url=#https://www.h8jx.com/jiexi.php?url=#https://jx.m3u8.tv/jiexi/?url=#http://www.ikukk.com/?url=",
-"dianshizhibo":"",
+"dianshizhibo": "http://laohu.cool/ddtv/bblive.txt",
 "tiyuzhibo":"https://m.zhibo8.net",
 "reci":"https://v.sogou.com",
 "gongju":"aHR0cHM6Ly9na2Q4LmNmL3p6L3h6Lw==",
