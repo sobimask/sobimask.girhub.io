@@ -25,8 +25,6 @@ cctv17,https://live.v1.mk/api/ghyx.php?id=CCTV17HD_6000
 江苏卫视,https://live.v1.mk/api/ghyx.php?id=JiangSuHD_6000 
 山东卫视,https://live.v1.mk/api/ghyx.php?id=ShanDongHD_6000 
 东方卫视,https://live.v1.mk/api/ghyx.php?id=DongFangHD_6000 
-山东综艺,http://ksdlive.gwpd.iqilu.com/zypd.m3u8 
-山东生活,http://ksdlive.gwpd.iqilu.com/shpd.m3u8 
 东南卫视,https://live.v1.mk/api/ghyx.php?id=FuJianHD_6000 
 湖北卫视,https://live.v1.mk/api/ghyx.php?id=HuBeiHD_6000 
 广东卫视,https://live.v1.mk/api/ghyx.php?id=GuangDongHD_6000 
