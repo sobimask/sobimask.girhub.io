@@ -18,7 +18,6 @@ cctv15,http://iptv.cooltv.top/tv/aishang.php?id=cctv15hd
 cctv16,http://iptv.cooltv.top/tv/aishang.php?id=cctv16hd 
 CCTV-16 4K,http://iptv.cooltv.top/tv/aishang.php?id=cctv164k 
 cctv17,http://iptv.cooltv.top/tv/aishang.php?id=cctv17hd 
-CCTV-4K,
 ##卫视##
 安徽卫视,http://iptv.cooltv.top/tv/aishang.php?id=ahwshd 
 湖南卫视,http://iptv.cooltv.top/tv/aishang.php?id=hunwshd 
